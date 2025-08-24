@@ -5,185 +5,133 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Joy Baba Loknath Fish Traders | Balurghat</title>
   <meta name="description" content="Joy Baba Loknath Fish Traders — All types of fresh fish for weddings, events & retail. Address: Balurghat Municipality Fish Market, Room 75/B. Owner: Loknath Halder. Call 9933106458." />
-  <meta name="keywords" content="Balurghat fish market, wedding fish catering, fresh fish Balurghat, Joy Baba Loknath Fish Traders" />
-  <meta property="og:title" content="Joy Baba Loknath Fish Traders" />
-  <meta property="og:description" content="All types of fresh fish for weddings, events & retail in Balurghat. Call 9933106458." />
-  <meta property="og:type" content="business.business" />
-  <meta property="og:locale" content="en_IN" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23008cff' d='M9 50c18-20 44-20 62 0-18 20-44 20-62 0z'/%3E%3Ccircle cx='71' cy='50' r='5' fill='%23003366'/%3E%3C/svg%3E" />
+  <link rel="icon" href="https://img.icons8.com/color/48/fish.png" />
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    html, body { height: 100%; }
+    html, body { height: 100%; font-family: 'Inter', sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%); }
+    .fade-in { animation: fadeIn 1.5s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
   </style>
-
-  <!-- Local Business Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Store",
-    "name": "Joy Baba Loknath Fish Traders",
-    "image": "",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Balurghat Municipality Fish Market, Room 75/B",
-      "addressLocality": "Balurghat",
-      "addressRegion": "West Bengal",
-      "postalCode": "733101",
-      "addressCountry": "IN"
-    },
-    "telephone": "+91 9933106458",
-    "openingHours": "Mo-Su 06:00-20:00",
-    "url": ""
-  }
-  </script>
 </head>
 <body class="bg-slate-50 text-slate-800">
-  <!-- Header / Nav -->
-  <header class="sticky top-0 z-20 backdrop-blur bg-white/70 border-b border-slate-200">
-    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="#home" class="flex items-center gap-2 font-semibold text-slate-900">
-        <span class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-white">JB</span>
-        <span>Joy Baba Loknath Fish Traders</span>
+  <!-- Navbar -->
+  <header class="sticky top-0 z-20 bg-white/90 shadow-sm backdrop-blur">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2 font-bold text-xl text-blue-700">
+        <img src="https://img.icons8.com/color/48/fish.png" class="h-8 w-8" alt="fish icon">
+        Joy Baba Loknath
       </a>
-      <nav class="hidden md:flex items-center gap-6 text-sm">
-        <a href="#services" class="hover:text-blue-700">Services</a>
-        <a href="#gallery" class="hover:text-blue-700">Gallery</a>
-        <a href="#location" class="hover:text-blue-700">Location</a>
-        <a href="#contact" class="px-3 py-2 rounded-xl bg-blue-600 text-white hover:bg-blue-700">Call: 9933106458</a>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#gallery" class="hover:text-blue-600">Gallery</a>
+        <a href="#location" class="hover:text-blue-600">Location</a>
+        <a href="#contact" class="px-4 py-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 shadow">Call Now</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero -->
-  <section id="home" class="relative overflow-hidden">
-    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-blue-50 to-slate-50"></div>
-    <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+  <section id="home" class="hero-bg text-white">
+    <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center fade-in">
       <div>
-        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight text-slate-900">Fresh Fish for Weddings, Events & Daily Retail</h1>
-        <p class="mt-4 text-lg md:text-xl text-slate-700">Address: <strong>Balurghat Municipality Fish Market, Room 75/B</strong><br>Owner: <strong>Loknath Halder</strong></p>
-        <p class="mt-2 text-slate-600">সব রকম মাছ পাওয়া যায় — বিয়ে, অন্নপ্রাশন, সব অনুষ্ঠান ও খুচরা বিক্রয়।</p>
-        <div class="mt-6 flex flex-wrap gap-3">
-          <a href="tel:+919933106458" class="px-5 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Call Now</a>
-          <a href="https://wa.me/919933106458?text=Hi%20Joy%20Baba%20Loknath%20Fish%20Traders%2C%20I%20want%20to%20order%20fresh%20fish." class="px-5 py-3 rounded-xl border border-slate-300 hover:bg-white">WhatsApp</a>
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Fresh Fish for Weddings & Daily Market</h1>
+        <p class="mt-4 text-lg">Owner: <strong>Loknath Halder</strong><br>Balurghat Municipality Fish Market, Room 75/B</p>
+        <p class="mt-2 text-base italic opacity-90">সব রকম মাছ — বিয়ে, অনুষ্ঠান ও খুচরা বিক্রয়।</p>
+        <div class="mt-6 flex flex-wrap gap-4">
+          <a href="tel:+919933106458" class="px-6 py-3 rounded-full bg-white text-blue-700 font-semibold hover:bg-slate-100">📞 Call Now</a>
+          <a href="https://wa.me/919933106458" class="px-6 py-3 rounded-full border border-white hover:bg-white hover:text-blue-700">💬 WhatsApp</a>
         </div>
-        <ul class="mt-6 grid grid-cols-2 gap-3 text-sm text-slate-700">
-          <li class="flex items-center gap-2"><span class="h-2 w-2 bg-blue-600 rounded-full"></span> Rohu, Katla, Hilsa, Pabda, Bhetki</li>
-          <li class="flex items-center gap-2"><span class="h-2 w-2 bg-blue-600 rounded-full"></span> Live & iced delivery options</li>
-          <li class="flex items-center gap-2"><span class="h-2 w-2 bg-blue-600 rounded-full"></span> Bulk supply for celebrations</li>
-          <li class="flex items-center gap-2"><span class="h-2 w-2 bg-blue-600 rounded-full"></span> Clean & cut on request</li>
-        </ul>
       </div>
-      <div class="relative">
-        <div class="aspect-[4/3] rounded-2xl shadow-xl bg-white overflow-hidden">
-          <!-- Simple decorative illustration -->
-          <svg viewBox="0 0 800 600" class="w-full h-full">
-            <defs>
-              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
-                <stop offset="0%" stop-color="#93C5FD"/>
-                <stop offset="100%" stop-color="#3B82F6"/>
-              </linearGradient>
-            </defs>
-            <rect width="800" height="600" fill="url(#g1)" opacity="0.15"/>
-            <g>
-              <path d="M80 320c60-70 150-110 250-110s190 40 250 110c-60 70-150 110-250 110S140 390 80 320z" fill="#60A5FA" opacity="0.35"/>
-              <circle cx="560" cy="320" r="14" fill="#1E3A8A"/>
-              <circle cx="300" cy="300" r="4" fill="#1E3A8A"/>
-            </g>
-            <text x="50%" y="90%" text-anchor="middle" font-size="28" fill="#1F2937" font-family="Inter, system-ui">Always Fresh • Best Price • Trusted Quality</text>
-          </svg>
-        </div>
+      <div>
+        <img src="https://img.icons8.com/external-flat-juicy-fish/400/external-fish-seafood-flat-flat-juicy-fish.png" alt="fresh fish" class="rounded-2xl shadow-xl" />
       </div>
     </div>
   </section>
 
   <!-- Services -->
-  <section id="services" class="py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl md:text-3xl font-bold">Our Services</h2>
-      <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm">
-          <h3 class="font-semibold text-lg">Weddings & Celebrations</h3>
-          <p class="mt-2 text-sm text-slate-700">All varieties for Bengali weddings and events. Bulk booking available. Delivery arranged.</p>
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Our Services</h2>
+      <p class="mt-2 text-slate-600">We provide high-quality fish for every occasion</p>
+      <div class="mt-12 grid md:grid-cols-3 gap-8">
+        <div class="p-8 rounded-2xl bg-blue-50 shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-xl mb-2">🎉 Weddings & Celebrations</h3>
+          <p>Premium selection for Bengali weddings & events. Bulk booking available.</p>
         </div>
-        <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm">
-          <h3 class="font-semibold text-lg">Retail & Wholesale</h3>
-          <p class="mt-2 text-sm text-slate-700">Daily fresh catch — Rohu, Katla, Hilsa (seasonal), Pabda, Bhetki, Prawn and more.</p>
+        <div class="p-8 rounded-2xl bg-blue-50 shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-xl mb-2">🛍️ Retail & Wholesale</h3>
+          <p>Daily fresh catch — Rohu, Katla, Hilsa, Pabda, Bhetki, Prawn and more.</p>
         </div>
-        <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200 shadow-sm">
-          <h3 class="font-semibold text-lg">Clean & Cut Service</h3>
-          <p class="mt-2 text-sm text-slate-700">Cleaning, cutting and packing as per your requirement for home or event caterers.</p>
+        <div class="p-8 rounded-2xl bg-blue-50 shadow hover:shadow-lg transition">
+          <h3 class="font-semibold text-xl mb-2">🔪 Clean & Cut Service</h3>
+          <p>Cleaning, cutting and packing as per your needs.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Gallery (placeholders) -->
-  <section id="gallery" class="py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl md:text-3xl font-bold">Gallery</h2>
-      <p class="mt-2 text-slate-600 text-sm">Replace these blocks with your own market or product photos (drop images in the same folder and edit the <code>&lt;img&gt;</code> tags).</p>
-      <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="aspect-square rounded-xl bg-slate-200"></div>
-        <div class="aspect-square rounded-xl bg-slate-200"></div>
-        <div class="aspect-square rounded-xl bg-slate-200"></div>
-        <div class="aspect-square rounded-xl bg-slate-200"></div>
+  <!-- Gallery -->
+  <section id="gallery" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold">Gallery</h2>
+      <p class="mt-2 text-slate-600">A glimpse of our fresh fish collection</p>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://source.unsplash.com/400x400/?fish,market" class="rounded-xl shadow hover:scale-105 transition" />
+        <img src="https://source.unsplash.com/401x400/?fresh,fish" class="rounded-xl shadow hover:scale-105 transition" />
+        <img src="https://source.unsplash.com/402x400/?seafood" class="rounded-xl shadow hover:scale-105 transition" />
+        <img src="https://source.unsplash.com/403x400/?fish,food" class="rounded-xl shadow hover:scale-105 transition" />
       </div>
     </div>
   </section>
 
   <!-- Location -->
-  <section id="location" class="py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl md:text-3xl font-bold">Find Us</h2>
-      <p class="mt-2 text-slate-700">Balurghat Municipality Fish Market, Room 75/B — West Bengal 733101</p>
-      <div class="mt-6 rounded-2xl overflow-hidden shadow border border-slate-200">
+  <section id="location" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold">Find Us</h2>
+      <p class="mt-2 text-slate-600">Balurghat Municipality Fish Market, Room 75/B, West Bengal 733101</p>
+      <div class="mt-6 rounded-2xl overflow-hidden shadow-lg">
         <iframe title="Map to Joy Baba Loknath Fish Traders" width="100%" height="420" style="border:0" loading="lazy" allowfullscreen
-          referrerpolicy="no-referrer-when-downgrade"
           src="https://www.google.com/maps?q=Balurghat%20Municipality%20Fish%20Market%2C%20Room%2075%2FB&output=embed"></iframe>
       </div>
-      <a class="inline-block mt-3 text-blue-700 underline" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Balurghat%20Municipality%20Fish%20Market%2C%20Room%2075%2FB">Open in Google Maps</a>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="py-16">
-    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-start">
+  <section id="contact" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <h2 class="text-2xl md:text-3xl font-bold">Contact</h2>
-        <ul class="mt-4 space-y-2 text-slate-700">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+        <ul class="space-y-2 text-slate-700 text-lg">
           <li><strong>Owner:</strong> Loknath Halder</li>
-          <li><strong>Phone:</strong> <a class="text-blue-700 underline" href="tel:+919933106458">+91 99331 06458</a></li>
-          <li><strong>WhatsApp:</strong> <a class="text-blue-700 underline" href="https://wa.me/919933106458">wa.me/919933106458</a></li>
-          <li><strong>Email:</strong> <span class="text-slate-500">(add later if needed)</span></li>
+          <li><strong>Phone:</strong> <a class="text-blue-600 underline" href="tel:+919933106458">+91 99331 06458</a></li>
+          <li><strong>WhatsApp:</strong> <a class="text-blue-600 underline" href="https://wa.me/919933106458">wa.me/919933106458</a></li>
           <li><strong>Hours:</strong> Daily 6:00 AM – 8:00 PM</li>
         </ul>
-        <div class="mt-6 flex gap-3">
-          <a href="tel:+919933106458" class="px-5 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Call Now</a>
-          <a href="https://wa.me/919933106458?text=Hello%2C%20I%20want%20to%20book%20fish%20for%20my%20event." class="px-5 py-3 rounded-xl border border-slate-300 hover:bg-white">WhatsApp Us</a>
+        <div class="mt-6 flex gap-4">
+          <a href="tel:+919933106458" class="px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700">📞 Call</a>
+          <a href="https://wa.me/919933106458" class="px-6 py-3 rounded-full bg-green-500 text-white font-semibold hover:bg-green-600">💬 WhatsApp</a>
         </div>
       </div>
-      <form class="bg-white p-6 rounded-2xl shadow border border-slate-200" onsubmit="event.preventDefault(); alert('Thank you! We will contact you shortly.');">
-        <h3 class="text-lg font-semibold">Quick Enquiry</h3>
-        <p class="text-sm text-slate-600">Send your requirement (fish type, quantity, date).</p>
-        <div class="mt-4 grid gap-4">
-          <input class="w-full p-3 rounded-xl border border-slate-300" placeholder="Your Name" required />
-          <input class="w-full p-3 rounded-xl border border-slate-300" placeholder="Phone or WhatsApp" required />
-          <textarea class="w-full p-3 rounded-xl border border-slate-300" rows="4" placeholder="e.g., Hilsa 10kg for wedding on 15 Sept"></textarea>
-          <button class="px-5 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Send Enquiry</button>
+      <form class="bg-white p-8 rounded-2xl shadow-lg" onsubmit="event.preventDefault(); alert('Thank you! We will contact you shortly.');">
+        <h3 class="text-xl font-semibold mb-4">Quick Enquiry</h3>
+        <div class="grid gap-4">
+          <input class="w-full p-3 rounded-lg border border-slate-300" placeholder="Your Name" required />
+          <input class="w-full p-3 rounded-lg border border-slate-300" placeholder="Phone or WhatsApp" required />
+          <textarea class="w-full p-3 rounded-lg border border-slate-300" rows="4" placeholder="e.g., Hilsa 10kg for wedding"></textarea>
+          <button class="px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700">Send</button>
         </div>
-        <p class="mt-2 text-xs text-slate-500">(This demo form shows a thank-you alert. You can replace it with Google Form link.)</p>
+        <p class="mt-2 text-xs text-slate-500">(This demo form shows a thank-you alert. Replace with Google Form for real use.)</p>
       </form>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="border-t border-slate-200 bg-white">
-    <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-3">
-      <p>© <span id="y"></span> Joy Baba Loknath Fish Traders • Balurghat</p>
-      <p>Designed for GitHub Pages • Update photos & details anytime</p>
-    </div>
+  <footer class="bg-blue-700 text-white py-6 text-center">
+    <p>© <span id="y"></span> Joy Baba Loknath Fish Traders • Balurghat</p>
+    <p class="text-sm opacity-75">Always Fresh • Best Price • Trusted Quality</p>
   </footer>
 
   <script>
